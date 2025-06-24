@@ -267,10 +267,6 @@ describe("handleEdit", () => {
             return true;
           },
         ),
-        {
-          seed: 1017362841,
-          path: "1",
-        },
       )).timeout(20000);
 
     it("changes the document the same way when redoing undone edits", () =>
