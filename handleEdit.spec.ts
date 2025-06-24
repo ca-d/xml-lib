@@ -5,14 +5,15 @@ import {
   insert,
   isValidInsert,
   remove,
-  sclDocString,
   setAttributes,
   setTextContent,
   testDocs,
   UndoRedoTestCase,
   undoRedoTestCases,
   xmlAttributeName,
-} from "./testHelpers.js";
+} from "@omicronenergy/oscd-test-utils/arbitraries.js";
+
+import { sclDocString } from "@omicronenergy/oscd-test-utils/scl-sample-docs.js";
 
 import { EditV2, Insert } from "@omicronenergy/oscd-api";
 import { isEditV2 } from "@omicronenergy/oscd-api/utils.js";
