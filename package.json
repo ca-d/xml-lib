@@ -41,6 +41,6 @@
   },
   "dependencies": {
     "@omicronenergy/oscd-api": "^0.1.0",
-    "@omicronenergy/oscd-test-utils": "^0.0.5"
+    "@omicronenergy/oscd-test-utils": "^0.0.6"
   }
 }
